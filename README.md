@@ -17,6 +17,7 @@ For small bench NLP benchmark, we use the config as mentioned in ```/roberta-sma
 To train RoBERTa model from scratch, run this command, 
 
 ```
-python run_mlm_no_trainer.py --model_type roberta --train_file /path/data/train.txt   --output_dir output --config_name /path/roberta-small --tokenizer_name /path/roberta-small 
+python run_mlm_no_trainer.py --model_type roberta --train_file /path/data/train.txt   //
+--output_dir output --config_name /path/roberta-small --tokenizer_name /path/roberta-small 
 
 ```
