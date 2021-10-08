@@ -21,3 +21,9 @@ python run_mlm_no_trainer.py --model_type roberta --train_file /path/data/train.
 --output_dir output --config_name /path/roberta-small --tokenizer_name /path/roberta-small 
 
 ```
+
+### RoBERTa-small model
+
+RoBERTa-small model is available in [huggingface](https://huggingface.co/smallbenchnlp/roberta-small)
+
+
